@@ -24,7 +24,7 @@
       <h2 class="text-center">Make your reservation</h2>
       <br>
       <div class="text-center">
-        <a href="/tables">
+        <a href="/viewTable">
           <button class="btn btn-lg btn-primary">
             <span class="fa fa-list-alt"></span> View Tables</button>
         </a>
@@ -91,9 +91,9 @@
 
     // Here we grab the form elements
     var newReservation = {
-      customerName: $("#reserve-name").val().trim(),
-      phoneNumber: $("#reserve-phone").val().trim(),
-      customerEmail: $("#reserve-email").val().trim(),
+      name: $("#reserve-name").val().trim(),
+      phone: $("#reserve-phone").val().trim(),
+      email: $("#reserve-email").val().trim(),
      
     };
 
