@@ -38,7 +38,7 @@ app.get("/viewTable", function (req, res) {
 });
 
 app.get("/makeReservation", function (req, res) {
-    res.sendFile(path.join(__dirname, "makereservation.html"));
+    res.sendFile(path.join(__dirname, "makeReservation.html"));
 });
 
 app.get("/api/tables", function (req, res) {
